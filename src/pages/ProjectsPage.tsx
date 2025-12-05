@@ -18,11 +18,12 @@ const ProjectsPage = () => {
   return (
     <>
       <Helmet>
-        <title>{t("projects.title")} - Preciouscontrol</title>
+        <title>{t("projects.title")} | Preciouscontrol</title>
         <meta name="description" content={t("projects.subtitle")} />
-        <meta property="og:title" content={`${t("projects.title")} - Preciouscontrol`} />
+        <meta name="keywords" content="projects, portfolio, scaffolding projects, completed work, case studies" />
+        <meta property="og:title" content={t("projects.title") + " | Preciouscontrol"} />
         <meta property="og:description" content={t("projects.subtitle")} />
-        <link rel="canonical" href="/projects" />
+        <link rel="canonical" href="https://preciouscontrol.github.io/projects" />
       </Helmet>
 
       {/* Hero Section */}

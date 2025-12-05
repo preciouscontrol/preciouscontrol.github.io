@@ -9,11 +9,12 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>{t("services.title")} - Preciouscontrol</title>
+        <title>{t("services.title")} | Preciouscontrol</title>
         <meta name="description" content={t("services.subtitle")} />
-        <meta property="og:title" content={`${t("services.title")} - Preciouscontrol`} />
+        <meta name="keywords" content="scaffolding services, site logistics, warehouse management, works at height" />
+        <meta property="og:title" content={t("services.title") + " | Preciouscontrol"} />
         <meta property="og:description" content={t("services.subtitle")} />
-        <link rel="canonical" href="/services" />
+        <link rel="canonical" href="https://preciouscontrol.github.io/services" />
       </Helmet>
 
       {/* Hero Section */}

@@ -82,6 +82,10 @@ const QuoteRequestPage = () => {
       <Helmet>
         <title>{t("quote.title")} | Preciouscontrol</title>
         <meta name="description" content={t("quote.pageDescription")} />
+        <meta name="keywords" content="quote request, project estimate, scaffolding pricing, free quote" />
+        <meta property="og:title" content={t("quote.title") + " | Preciouscontrol"} />
+        <meta property="og:description" content={t("quote.pageDescription")} />
+        <link rel="canonical" href="https://preciouscontrol.github.io/quote" />
       </Helmet>
 
       {/* Hero Section */}

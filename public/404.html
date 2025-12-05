@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preciouscontrol</title>
+    <script>
+      // GitHub Pages redirect for SPA routing
+      (function () {
+        var path = decodeURI(window.location.pathname);
+        if (!path.endsWith('.html') && !path.endsWith('.json')) {
+          var segmentCount = (path.split('/').length - 1);
+          var l = window.location;
+          l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            '/index.html?redirect=' + encodeURIComponent(path) +
+            (l.search ? '&' + l.search.slice(1) : '') +
+            l.hash
+          );
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

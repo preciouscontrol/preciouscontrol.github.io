@@ -11,12 +11,13 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Preciouscontrol - Works at height Solutions</title>
+        <title>Preciouscontrol | Works at height Solutions</title>
         <meta name="description" content={t("hero.subtitle")} />
-        <meta property="og:title" content="Preciouscontrol - Works at Height Solutions" />
+        <meta name="keywords" content="scaffolding, site logistics, warehouse management, works at height" />
+        <meta property="og:title" content="Preciouscontrol | Works at height Solutions" />
         <meta property="og:description" content={t("hero.subtitle")} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://preciouscontrol.github.io" />
       </Helmet>
       <Hero />
       <About />

@@ -11,7 +11,11 @@ const ContactPage = () => {
     <>
       <Helmet>
         <title>{t("nav.contact")} | Preciouscontrol</title>
-        <meta name="description" content={t("contact.pageDescription")} />
+        <meta name="description" content={t("contact.heroSubtitle")} />
+        <meta name="keywords" content="contact, get in touch, inquiry, scaffolding services, support" />
+        <meta property="og:title" content={t("nav.contact") + " | Preciouscontrol"} />
+        <meta property="og:description" content={t("contact.heroSubtitle")} />
+        <link rel="canonical" href="https://preciouscontrol.github.io/contact" />
       </Helmet>
 
       {/* Hero Section */}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // GitHub Pages SPA router
+    (function() {
+      const path = decodeURI(window.location.pathname.replace(/^\/preciouscontrol.github.io/, ''));
+      if (path !== '/' && !path.match(/\.\w+$/)) {
+        window.history.replaceState(
+          null,
+          null,
+          '/?p=' + path.slice(1).split('/').join('~')
+        );
+      }
+    })();
+  </script>
+</head>
+<body>
+</body>
+</html>
