@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Company",
+    "services": "Services",
+    "projects": "Gallery",
+    "contact": "Contact",
+    "quote": "Quote"
+  },
+  "hero": {
+    "title": "Preciouscontrol",
+    "tagline": "Works at height Solutions",
+    "subtitle": "Specialists in scaffolding, site logistics and warehouse management. We offer safe and quality solutions for your projects.",
+    "learnMore": "Learn More",
+    "viewProjects": "View Projects",
+    "contact": "Contact Us",
+    "requestQuote": "Request Quote"
+  },
+  "about": {
+    "heroTitle": "About Us",
+    "heroSubtitle": "Learn more about Preciouscontrol and our commitment to excellence, safety and quality.",
+    "title": "Who We Are",
+    "description": "Preciouscontrol Unipessoal Lda is a company founded on May 30, 2022, specialized in height work, site logistics and warehouse management. We are dedicated to offering safe, efficient and quality solutions, with a qualified team committed to excellence.",
+    "features": {
+      "safety": {
+        "title": "Safety",
+        "desc": "We strictly comply with all safety standards for work at height."
+      },
+      "precision": {
+        "title": "Precision",
+        "desc": "Attention to detail at every stage of the project for perfect results."
+      },
+      "team": {
+        "title": "Qualified Team",
+        "desc": "Experienced and certified professionals in their areas of expertise."
+      },
+      "quality": {
+        "title": "Quality",
+        "desc": "We use high-quality materials and techniques in all our work."
+      }
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be a reference in height work and site logistics, combining specialized techniques with safe practices and commitment to customer satisfaction."
+    },
+    "values": {
+      "title": "Our Values",
+      "text": "Safety, quality, professionalism and commitment to customer satisfaction. Each project is treated with dedication and attention to detail."
+    },
+    "founded": "Founded in",
+    "foundedDate": "May 30, 2022"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a complete range of scaffolding and site logistics services, adapted to each client's needs.",
+    "scaffolding": {
+      "title": "Scaffolding",
+      "description": "Complete scaffolding solutions for your project.",
+      "items": {
+        "design": "Design and estimation of scaffolding materials needed for your project, as well as labor required for assembly and disassembly",
+        "management": "Management, coordination and inspection of scaffolding work",
+        "audit": "On-site auditing of scaffolding assembly activities"
+      }
+    },
+    "logistics": {
+      "title": "Logistics",
+      "description": "Management and logistical coordination for your construction site.",
+      "items": {
+        "facilities": "Management and coordination of temporary facilities needed for your project",
+        "energy": "Management and coordination of temporary power supply for your project",
+        "transport": "Management and coordination of transportation within your construction site",
+        "storage": "Storage management and coordination of equipment needed for your project execution"
+      }
+    }
+  },
+  "projects": {
+    "title": "Our Work",
+    "subtitle": "Discover some of our projects. Each one demonstrates our commitment to quality and excellence.",
+    "categories": {
+      "all": "All",
+      "scaffolding": "Scaffolding",
+      "logistics": "Logistics"
+    },
+    "types": {
+      "scaffolding": "Scaffolding",
+      "logistics": "Logistics"
+    }
+  },
+  "footer": {
+    "description": "Specialists in height work, site logistics and warehouse management. Committed to excellence, safety and quality.",
+    "tagline": "Works at height Solutions",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "socialMedia": "Social Media",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "rights": "Preciouscontrol. All rights reserved."
+  },
+  "contact": {
+    "title": "Request a Quote",
+    "pageDescription": "Contact us for more information about our services.",
+    "heroSubtitle": "We are available to answer your questions and provide information about our services.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+351 912 345 678",
+    "message": "Message",
+    "messagePlaceholder": "Describe your project or need...",
+    "send": "Send Request",
+    "sendMessage": "Send Message",
+    "info": "Contact Information",
+    "required": "Please fill in all required fields.",
+    "success": "Message Sent!",
+    "successDesc": "We will contact you shortly.",
+    "error": "Error",
+    "schedule": "Schedule",
+    "scheduleInfo": "Monday to Friday: 9am - 6pm"
+  },
+  "quote": {
+    "title": "Quote Request",
+    "pageDescription": "Request a free quote for your scaffolding or site logistics project.",
+    "subtitle": "Fill out the form below and we will contact you with a personalized quote.",
+    "formTitle": "Online Quote Request",
+    "formSubtitle": "Scaffolding and site logistics services",
+    "companyInfo": "Company Details",
+    "companyName": "Name/Company",
+    "companyNamePlaceholder": "Company or individual name",
+    "nif": "Tax ID",
+    "nifPlaceholder": "Tax identification number",
+    "contactName": "Contact Name",
+    "contactNamePlaceholder": "Contact person name",
+    "contactInfo": "Contact Details",
+    "preferredContact": "Preferred Contact",
+    "selectOption": "Select an option",
+    "projectInfo": "Project Details",
+    "serviceType": "Service Type",
+    "selectService": "Select service",
+    "bothServices": "Scaffolding and Logistics",
+    "projectLocation": "Project Location",
+    "projectLocationPlaceholder": "Address or municipality",
+    "expectedStartDate": "Expected Start Date",
+    "projectDescription": "Project Description",
+    "projectDescriptionPlaceholder": "Describe your project details, including dimensions, estimated duration and specific requirements...",
+    "acceptTerms": "I accept that my data will be used for commercial contact and quote preparation purposes.",
+    "acceptTermsRequired": "You must accept the terms to continue.",
+    "submit": "Submit Quote Request",
+    "successDesc": "Your request has been received. We will contact you shortly."
+  }
+}

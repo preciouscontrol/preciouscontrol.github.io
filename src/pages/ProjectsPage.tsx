@@ -1,0 +1,39 @@
+import HeroSection from "@/components/HeroSection";
+import Gallery, { GalleryImage } from "@/components/Gallery";
+import { Projects } from "@/components/Projects";
+import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
+
+const ProjectsPage = () => {
+  const { t } = useTranslation();
+
+  // Generate numbered images from /public/projects/ directory (1.jpg, 2.jpg, etc.)
+  const projectImages: GalleryImage[] = Array.from({ length: 75 }, (_, i) => ({
+    id: `project-chernobyl${i + 1}`,
+    src: `projects/chernobyl (${i + 1}).jpg`,
+    alt: `Project Chernobyl${i + 1}`,
+    title: `Project Chernobyl`,
+  }));
+  
+  return (
+    <>
+      <Helmet>
+        <title>{t("projects.title")} - Preciouscontrol</title>
+        <meta name="description" content={t("projects.subtitle")} />
+        <meta property="og:title" content={`${t("projects.title")} - Preciouscontrol`} />
+        <meta property="og:description" content={t("projects.subtitle")} />
+        <link rel="canonical" href="/projects" />
+      </Helmet>
+
+      {/* Hero Section */}
+      <HeroSection title={t("projects.title")} subtitle={t("projects.subtitle")} />
+
+      <main>
+        {/*<Projects /> Placeholder for future Projects component integration */}
+        <Gallery images={projectImages} title={t("projects.title")} />
+      </main>
+    </>
+  );
+};
+
+export default ProjectsPage;

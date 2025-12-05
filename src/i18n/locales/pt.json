@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Empresa",
+    "services": "Serviços",
+    "projects": "Galeria",
+    "contact": "Contactos",
+    "quote": "Orçamento"
+  },
+  "hero": {
+    "title": "Preciouscontrol",
+    "tagline": "Works at height Solutions",
+    "subtitle": "Especialistas em andaimes, logística de obras e administração de armazéns. Oferecemos soluções seguras e de qualidade para os seus projetos.",
+    "learnMore": "Saiba Mais",
+    "viewProjects": "Ver Projetos",
+    "contact": "Contacte-nos",
+    "requestQuote": "Pedir Orçamento"
+  },
+  "about": {
+    "heroTitle": "Sobre Nós",
+    "heroSubtitle": "Saiba mais sobre a Preciouscontrol e o nosso compromisso com a excelência, segurança e qualidade.",
+    "title": "Quem Somos",
+    "description": "A Preciouscontrol Unipessoal Lda é uma empresa fundada em 30 de Maio de 2022, especializada em trabalhos em altura, logística de obras e administração de armazéns. Dedicamo-nos a oferecer soluções seguras, eficientes e de qualidade, com uma equipa qualificada e comprometida com a excelência.",
+    "features": {
+      "safety": {
+        "title": "Segurança",
+        "desc": "Cumprimos rigorosamente todas as normas de segurança em trabalhos em altura."
+      },
+      "precision": {
+        "title": "Precisão",
+        "desc": "Atenção ao detalhe em cada fase do projeto para resultados perfeitos."
+      },
+      "team": {
+        "title": "Equipa Qualificada",
+        "desc": "Profissionais experientes e certificados nas suas áreas de atuação."
+      },
+      "quality": {
+        "title": "Qualidade",
+        "desc": "Utilizamos materiais e técnicas de alta qualidade em todos os nossos trabalhos."
+      }
+    },
+    "vision": {
+      "title": "A Nossa Visão",
+      "text": "Ser uma referência em trabalhos em altura e logística de obras, combinando técnicas especializadas com práticas seguras e compromisso com a satisfação do cliente."
+    },
+    "values": {
+      "title": "Os Nossos Valores",
+      "text": "Segurança, qualidade, profissionalismo e compromisso com a satisfação do cliente. Cada projeto é tratado com dedicação e atenção ao detalhe."
+    },
+    "founded": "Fundada em",
+    "foundedDate": "30 de Maio de 2022"
+  },
+  "services": {
+    "title": "Os Nossos Serviços",
+    "subtitle": "Oferecemos uma gama completa de serviços de andaimes e logística de obras, adaptados às necessidades de cada cliente.",
+    "scaffolding": {
+      "title": "Andaimes",
+      "description": "Soluções completas em andaimes para o seu projeto.",
+      "items": {
+        "design": "Desenho e estimativa de materiais de andaime necessários ao seu projeto, assim como mão de obra necessária para montagem e desmontagem",
+        "management": "Gestão, coordenação e inspeção de trabalhos de andaime",
+        "audit": "Auditoria em obra na atividade de montagem de andaimes"
+      }
+    },
+    "logistics": {
+      "title": "Logística",
+      "description": "Gestão e coordenação logística para a sua obra.",
+      "items": {
+        "facilities": "Gestão e coordenação de instalações provisórias necessárias ao seu projeto",
+        "energy": "Gestão e coordenação de fornecimento de energia provisória necessárias ao seu projeto",
+        "transport": "Gestão e coordenação de transportes dentro da sua obra",
+        "storage": "Gestão de armazenamento e coordenação de equipamentos necessários à execução do seu projeto"
+      }
+    }
+  },
+  "projects": {
+    "title": "Os Nossos Trabalhos",
+    "subtitle": "Conheça alguns dos nossos projetos. Cada um demonstra o nosso compromisso com qualidade e excelência.",
+    "categories": {
+      "all": "Todos",
+      "scaffolding": "Andaimes",
+      "logistics": "Logística"
+    },
+    "types": {
+      "scaffolding": "Andaimes",
+      "logistics": "Logística"
+    }
+  },
+  "footer": {
+    "description": "Especialistas em trabalhos em altura, logística de obras e administração de armazéns. Comprometidos com a excelência, segurança e qualidade.",
+    "tagline": "Works at height Solutions",
+    "quickLinks": "Links Rápidos",
+    "contactInfo": "Informações de Contacto",
+    "socialMedia": "Redes Sociais",
+    "email": "Email",
+    "phone": "Telefone",
+    "location": "Localização",
+    "rights": "Preciouscontrol. All rights reserved."
+  },
+  "contact": {
+    "title": "Solicitar Orçamento",
+    "pageDescription": "Entre em contacto connosco para mais informações sobre os nossos serviços.",
+    "heroSubtitle": "Estamos disponíveis para responder às suas questões e fornecer informações sobre os nossos serviços.",
+    "name": "Nome",
+    "namePlaceholder": "O seu nome",
+    "email": "Email",
+    "emailPlaceholder": "o.seu.email@exemplo.com",
+    "phone": "Telefone",
+    "phonePlaceholder": "+351 912 345 678",
+    "message": "Mensagem",
+    "messagePlaceholder": "Descreva o seu projeto ou necessidade...",
+    "send": "Enviar Pedido",
+    "sendMessage": "Enviar Mensagem",
+    "info": "Informações de Contacto",
+    "required": "Por favor preencha todos os campos obrigatórios.",
+    "success": "Mensagem Enviada!",
+    "successDesc": "Entraremos em contacto brevemente.",
+    "error": "Erro",
+    "schedule": "Horário",
+    "scheduleInfo": "Segunda a Sexta: 9h - 18h"
+  },
+  "quote": {
+    "title": "Pedido de Orçamento",
+    "pageDescription": "Solicite um orçamento gratuito para o seu projeto de andaimes ou logística de obras.",
+    "subtitle": "Preencha o formulário abaixo e entraremos em contacto com um orçamento personalizado.",
+    "formTitle": "Pedido de Cotação Online",
+    "formSubtitle": "Serviços de andaimes e logística de obras",
+    "companyInfo": "Dados da Empresa",
+    "companyName": "Nome/Empresa",
+    "companyNamePlaceholder": "Nome da empresa ou particular",
+    "nif": "NIF",
+    "nifPlaceholder": "Número de identificação fiscal",
+    "contactName": "Nome de Contacto",
+    "contactNamePlaceholder": "Nome da pessoa de contacto",
+    "contactInfo": "Dados de Contacto",
+    "preferredContact": "Contacto Preferencial",
+    "selectOption": "Selecione uma opção",
+    "projectInfo": "Dados do Projeto",
+    "serviceType": "Tipo de Serviço",
+    "selectService": "Selecione o serviço",
+    "bothServices": "Andaimes e Logística",
+    "projectLocation": "Localização do Projeto",
+    "projectLocationPlaceholder": "Morada ou concelho",
+    "expectedStartDate": "Data Prevista de Início",
+    "projectDescription": "Descrição do Projeto",
+    "projectDescriptionPlaceholder": "Descreva os detalhes do seu projeto, incluindo dimensões, duração estimada e requisitos específicos...",
+    "acceptTerms": "Aceito que os meus dados sejam utilizados para fins de contacto comercial e elaboração de orçamento.",
+    "acceptTermsRequired": "Deve aceitar os termos para continuar.",
+    "submit": "Enviar Pedido de Orçamento",
+    "successDesc": "O seu pedido foi recebido. Entraremos em contacto brevemente."
+  }
+}

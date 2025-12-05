@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "Entreprise",
+    "services": "Services",
+    "projects": "Galerie",
+    "contact": "Contact",
+    "quote": "Devis"
+  },
+  "hero": {
+    "title": "Preciouscontrol",
+    "tagline": "Works at height Solutions",
+    "subtitle": "Spécialistes en échafaudages, logistique de chantier et gestion d'entrepôts. Nous offrons des solutions sûres et de qualité pour vos projets.",
+    "learnMore": "En Savoir Plus",
+    "viewProjects": "Voir les Projets",
+    "contact": "Contactez-nous",
+    "requestQuote": "Demander un Devis"
+  },
+  "about": {
+    "heroTitle": "À Propos de Nous",
+    "heroSubtitle": "En savoir plus sur Preciouscontrol et notre engagement envers l'excellence, la sécurité et la qualité.",
+    "title": "Qui Sommes-Nous",
+    "description": "Preciouscontrol Unipessoal Lda est une entreprise fondée le 30 mai 2022, spécialisée dans les travaux en hauteur, la logistique de chantier et la gestion d'entrepôts. Nous nous consacrons à offrir des solutions sûres, efficaces et de qualité, avec une équipe qualifiée engagée dans l'excellence.",
+    "features": {
+      "safety": {
+        "title": "Sécurité",
+        "desc": "Nous respectons strictement toutes les normes de sécurité pour les travaux en hauteur."
+      },
+      "precision": {
+        "title": "Précision",
+        "desc": "Attention aux détails à chaque étape du projet pour des résultats parfaits."
+      },
+      "team": {
+        "title": "Équipe Qualifiée",
+        "desc": "Professionnels expérimentés et certifiés dans leurs domaines d'expertise."
+      },
+      "quality": {
+        "title": "Qualité",
+        "desc": "Nous utilisons des matériaux et techniques de haute qualité dans tous nos travaux."
+      }
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "text": "Être une référence dans les travaux en hauteur et la logistique de chantier, en combinant des techniques spécialisées avec des pratiques sûres et un engagement envers la satisfaction du client."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "text": "Sécurité, qualité, professionnalisme et engagement envers la satisfaction du client. Chaque projet est traité avec dévouement et attention aux détails."
+    },
+    "founded": "Fondée en",
+    "foundedDate": "30 mai 2022"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Nous offrons une gamme complète de services d'échafaudages et de logistique de chantier, adaptés aux besoins de chaque client.",
+    "scaffolding": {
+      "title": "Échafaudages",
+      "description": "Solutions complètes d'échafaudages pour votre projet.",
+      "items": {
+        "design": "Conception et estimation des matériaux d'échafaudage nécessaires à votre projet, ainsi que la main-d'œuvre requise pour le montage et le démontage",
+        "management": "Gestion, coordination et inspection des travaux d'échafaudage",
+        "audit": "Audit sur site des activités de montage d'échafaudages"
+      }
+    },
+    "logistics": {
+      "title": "Logistique",
+      "description": "Gestion et coordination logistique pour votre chantier.",
+      "items": {
+        "facilities": "Gestion et coordination des installations temporaires nécessaires à votre projet",
+        "energy": "Gestion et coordination de l'alimentation électrique temporaire pour votre projet",
+        "transport": "Gestion et coordination des transports au sein de votre chantier",
+        "storage": "Gestion du stockage et coordination des équipements nécessaires à l'exécution de votre projet"
+      }
+    }
+  },
+  "projects": {
+    "title": "Nos Travaux",
+    "subtitle": "Découvrez certains de nos projets. Chacun démontre notre engagement envers la qualité et l'excellence.",
+    "categories": {
+      "all": "Tous",
+      "scaffolding": "Échafaudages",
+      "logistics": "Logistique"
+    },
+    "types": {
+      "scaffolding": "Échafaudages",
+      "logistics": "Logistique"
+    }
+  },
+  "footer": {
+    "description": "Spécialistes en travaux en hauteur, logistique de chantier et gestion d'entrepôts. Engagés dans l'excellence, la sécurité et la qualité.",
+    "tagline": "Works at height Solutions",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Coordonnées",
+    "socialMedia": "Réseaux Sociaux",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "rights": "Preciouscontrol. All rights reserved."
+  },
+  "contact": {
+    "title": "Demander un Devis",
+    "pageDescription": "Contactez-nous pour plus d'informations sur nos services.",
+    "heroSubtitle": "Nous sommes disponibles pour répondre à vos questions et fournir des informations sur nos services.",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "Email",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+351 912 345 678",
+    "message": "Message",
+    "messagePlaceholder": "Décrivez votre projet ou besoin...",
+    "send": "Envoyer la Demande",
+    "sendMessage": "Envoyer le Message",
+    "info": "Coordonnées",
+    "required": "Veuillez remplir tous les champs obligatoires.",
+    "success": "Message Envoyé!",
+    "successDesc": "Nous vous contacterons sous peu.",
+    "error": "Erreur",
+    "schedule": "Horaires",
+    "scheduleInfo": "Lundi à Vendredi: 9h - 18h"
+  },
+  "quote": {
+    "title": "Demande de Devis",
+    "pageDescription": "Demandez un devis gratuit pour votre projet d'échafaudages ou de logistique de chantier.",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons avec un devis personnalisé.",
+    "formTitle": "Demande de Devis en Ligne",
+    "formSubtitle": "Services d'échafaudages et de logistique de chantier",
+    "companyInfo": "Détails de l'Entreprise",
+    "companyName": "Nom/Entreprise",
+    "companyNamePlaceholder": "Nom de l'entreprise ou particulier",
+    "nif": "N° Fiscal",
+    "nifPlaceholder": "Numéro d'identification fiscale",
+    "contactName": "Nom du Contact",
+    "contactNamePlaceholder": "Nom de la personne de contact",
+    "contactInfo": "Coordonnées",
+    "preferredContact": "Contact Préféré",
+    "selectOption": "Sélectionnez une option",
+    "projectInfo": "Détails du Projet",
+    "serviceType": "Type de Service",
+    "selectService": "Sélectionnez le service",
+    "bothServices": "Échafaudages et Logistique",
+    "projectLocation": "Localisation du Projet",
+    "projectLocationPlaceholder": "Adresse ou municipalité",
+    "expectedStartDate": "Date de Début Prévue",
+    "projectDescription": "Description du Projet",
+    "projectDescriptionPlaceholder": "Décrivez les détails de votre projet, y compris les dimensions, la durée estimée et les exigences spécifiques...",
+    "acceptTerms": "J'accepte que mes données soient utilisées à des fins de contact commercial et de préparation de devis.",
+    "acceptTermsRequired": "Vous devez accepter les conditions pour continuer.",
+    "submit": "Soumettre la Demande de Devis",
+    "successDesc": "Votre demande a été reçue. Nous vous contacterons sous peu."
+  }
+}
