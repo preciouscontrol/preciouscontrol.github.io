@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://preciouscontrol.com</loc>
+    <loc>https://preciouscontrol.github.io</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://preciouscontrol.com/about</loc>
+    <loc>https://preciouscontrol.github.io/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://preciouscontrol.com/services</loc>
+    <loc>https://preciouscontrol.github.io/services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://preciouscontrol.com/projects</loc>
+    <loc>https://preciouscontrol.github.io/projects</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://preciouscontrol.com/contact</loc>
+    <loc>https://preciouscontrol.github.io/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://preciouscontrol.com/quote</loc>
+    <loc>https://preciouscontrol.github.io/quote</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
