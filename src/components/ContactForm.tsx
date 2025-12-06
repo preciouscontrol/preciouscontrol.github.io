@@ -16,7 +16,7 @@ export const ContactForm = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!formData.name || !formData.email || !formData.message) {
@@ -28,19 +28,42 @@ export const ContactForm = () => {
       return;
     }
 
-    console.log("Form submitted:", formData);
-    
-    toast({
-      title: t("contact.success"),
-      description: t("contact.successDesc"),
-    });
+    try {
+      const response = await fetch("https://formspree.io/f/xyzrplnw", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        }),
+      });
 
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
+      if (response.ok) {
+        toast({
+          title: t("contact.success"),
+          description: t("contact.successDesc"),
+        });
+
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch (error) {
+      toast({
+        title: t("contact.error"),
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (

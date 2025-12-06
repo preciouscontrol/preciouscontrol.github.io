@@ -34,9 +34,9 @@
         "title": "Qualified Team",
         "desc": "Experienced and certified professionals in their areas of expertise."
       },
-      "quality": {
-        "title": "Quality",
-        "desc": "We use high-quality materials and techniques in all our work."
+      "efficiency": {
+        "title": "Efficiency",
+        "desc": "Optimized planning and logistics to keep projects on time and on budget."
       }
     },
     "vision": {
@@ -106,7 +106,7 @@
     "email": "Email",
     "emailPlaceholder": "your.email@example.com",
     "phone": "Phone",
-    "phonePlaceholder": "+351 912 345 678",
+    "phonePlaceholder": "+351 915 633 807",
     "message": "Message",
     "messagePlaceholder": "Describe your project or need...",
     "send": "Send Request",

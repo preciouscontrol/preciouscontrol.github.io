@@ -34,9 +34,9 @@
         "title": "Equipa Qualificada",
         "desc": "Profissionais experientes e certificados nas suas áreas de atuação."
       },
-      "quality": {
-        "title": "Qualidade",
-        "desc": "Utilizamos materiais e técnicas de alta qualidade em todos os nossos trabalhos."
+      "efficiency": {
+        "title": "Eficiência",
+        "desc": "Planeamento e logística otimizados para manter os projetos no prazo e dentro do orçamento."
       }
     },
     "vision": {
@@ -106,7 +106,7 @@
     "email": "Email",
     "emailPlaceholder": "o.seu.email@exemplo.com",
     "phone": "Telefone",
-    "phonePlaceholder": "+351 912 345 678",
+    "phonePlaceholder": "+351 915 633 807",
     "message": "Mensagem",
     "messagePlaceholder": "Descreva o seu projeto ou necessidade...",
     "send": "Enviar Pedido",

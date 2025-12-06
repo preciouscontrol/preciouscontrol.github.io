@@ -38,8 +38,8 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">{t("footer.phone")}</h3>
-                    <a href="tel:+351912345678" className="text-muted-foreground hover:text-primary transition-colors">
-                      +351 912 345 678
+                    <a href="tel:+351915633807" className="text-muted-foreground hover:text-primary transition-colors">
+                      +351 915 633 807
                     </a>
                   </div>
                 </div>
@@ -63,16 +63,6 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-semibold text-foreground">{t("footer.location")}</h3>
                     <p className="text-muted-foreground">Portalegre, Portugal</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 bg-muted rounded-lg">
-                  <div className="bg-primary rounded-full p-3">
-                    <Clock className="h-5 w-5 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground">{t("contact.schedule")}</h3>
-                    <p className="text-muted-foreground">{t("contact.scheduleInfo")}</p>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Shield, Target, Users, Award, Calendar } from "lucide-react";
+import { Shield, Target, Users, Timer } from "lucide-react";
 
 export const About = () => {
   const { t } = useTranslation();
@@ -16,14 +16,14 @@ export const About = () => {
       desc: t("about.features.precision.desc"),
     },
     {
+      icon: Timer,
+      title: t("about.features.efficiency.title"),
+      desc: t("about.features.efficiency.desc"),
+    },
+    {
       icon: Users,
       title: t("about.features.team.title"),
       desc: t("about.features.team.desc"),
-    },
-    {
-      icon: Award,
-      title: t("about.features.quality.title"),
-      desc: t("about.features.quality.desc"),
     },
   ];
 

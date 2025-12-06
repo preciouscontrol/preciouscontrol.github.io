@@ -54,11 +54,6 @@ export const Footer = () => {
                     {t("nav.contact")}
                   </Link>
                 </li>
-                <li>
-                  <Link to="/quote" className="text-white/80 hover:text-secondary transition-colors text-sm">
-                    {t("nav.quote")}
-                  </Link>
-                </li>
               </ul>
             </div>
 
@@ -74,8 +69,8 @@ export const Footer = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
-                  <a href="tel:+351912345678" className="text-white/80 hover:text-secondary transition-colors text-sm">
-                    +351 912 345 678
+                  <a href="tel:+351915633807" className="text-white/80 hover:text-secondary transition-colors text-sm">
+                    +351 915 633 807
                   </a>
                 </li>
                 <li className="flex items-start gap-3">

@@ -74,15 +74,6 @@ export const Services = ({ isHome = false }) => {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <Link to="/quote">
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white">
-              {t("hero.requestQuote")}
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </Link>
-        </div>
       </div>
     </section>
   );

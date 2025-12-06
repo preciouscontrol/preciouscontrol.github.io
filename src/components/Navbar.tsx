@@ -53,14 +53,8 @@ export const Navbar = () => {
             ))}
           </div>
 
-          {/* Quote Button and Language Switcher */}
+          {/* Language Switcher */}
           <div className="hidden md:flex items-center gap-4">
-            <Link to="/quote">
-              <Button className="bg-secondary hover:bg-secondary/90 text-white">
-                <FileText className="mr-2 h-4 w-4" />
-                {t("nav.quote")}
-              </Button>
-            </Link>
             <LanguageSwitcher />
           </div>
 
@@ -95,12 +89,6 @@ export const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Link to="/quote" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button className="w-full bg-secondary hover:bg-secondary/90 text-white">
-                <FileText className="mr-2 h-4 w-4" />
-                {t("nav.quote")}
-              </Button>
-            </Link>
             <div className="pt-2">
               <LanguageSwitcher />
             </div>

@@ -33,9 +33,8 @@ export const Hero = () => {
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentImage ? "opacity-100" : "opacity-0"
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentImage ? "opacity-100" : "opacity-0"
+            }`}
         >
           <img
             src={image}
@@ -61,15 +60,8 @@ export const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
               <Link
-                to="/quote"
-                className="bg-secondary text-white px-8 py-3 font-semibold hover:bg-brand-orange-light transition-all uppercase text-sm tracking-wide rounded flex items-center justify-center gap-2"
-              >
-                <FileText className="h-5 w-5" />
-                {t("hero.requestQuote")}
-              </Link>
-              <Link
                 to="/services"
-                className="bg-white/20 backdrop-blur-sm border border-white/40 text-white px-8 py-3 font-semibold hover:bg-white hover:text-primary transition-all uppercase text-sm tracking-wide rounded flex items-center justify-center gap-2"
+                className="bg-secondary text-white px-8 py-3 font-semibold hover:bg-brand-orange-light transition-all uppercase text-sm tracking-wide rounded flex items-center justify-center gap-2"
               >
                 {t("hero.learnMore")}
                 <ArrowRight className="h-5 w-5" />
@@ -92,11 +84,10 @@ export const Hero = () => {
           <button
             key={index}
             onClick={() => setCurrentImage(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === currentImage
+            className={`w-3 h-3 rounded-full transition-all ${index === currentImage
                 ? "bg-secondary w-8"
                 : "bg-white/50 hover:bg-white/80"
-            }`}
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
