@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import Gallery, { GalleryImage } from "@/components/Gallery";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { BlueprintSection } from "@/components/BlueprintSection";
 
 const ProjectsPage = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const ProjectsPage = () => {
     alt: `Project1 ${i + 1}`,
     title: `Project 1`,
   }));
-  
+
   return (
     <>
       <Helmet>
@@ -25,12 +26,12 @@ const ProjectsPage = () => {
         <link rel="canonical" href="https://preciouscontrol.github.io/projects" />
       </Helmet>
 
-      {/* Hero Section */}
       <HeroSection title={t("projects.title")} subtitle={t("projects.subtitle")} />
 
       <main>
-        {/*<Projects /> Placeholder for future Projects component integration */}
-        <Gallery images={projectImages} title={t("projects.title")} />
+        <BlueprintSection>
+          <Gallery images={projectImages} title={t("projects.heroTitle")} />
+        </BlueprintSection>
       </main>
     </>
   );

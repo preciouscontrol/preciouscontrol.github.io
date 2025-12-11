@@ -1,7 +1,7 @@
-import { Hero } from "@/components/Hero";
+import { ConstructionHero } from "@/components/ConstructionHero";
 import { About } from "@/components/About";
 import { Services } from "@/components/Services";
-import { Projects } from "@/components/Projects";
+import { ProjectTimeline } from "@/components/ProjectTimeline";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
@@ -19,10 +19,10 @@ const HomePage = () => {
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://preciouscontrol.github.io" />
       </Helmet>
-      <Hero />
+      <ConstructionHero />
       <About />
       <Services isHome={true} />
-      {/*<Projects isHome={true} />*/}
+      <ProjectTimeline />
     </>
   );
 };

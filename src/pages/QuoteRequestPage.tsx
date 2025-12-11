@@ -9,10 +9,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 import { Send, FileText } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const QuoteRequestPage = () => {
   const { t } = useTranslation();
   const { toast } = useToast();
+  const { ref, isVisible } = useScrollAnimation(0.1);
   
   const [formData, setFormData] = useState({
     companyName: "",
@@ -49,7 +51,6 @@ const QuoteRequestPage = () => {
       return;
     }
 
-    // Simulate form submission
     console.log("Quote request submitted:", formData);
     
     toast({
@@ -57,7 +58,6 @@ const QuoteRequestPage = () => {
       description: t("quote.successDesc"),
     });
 
-    // Reset form
     setFormData({
       companyName: "",
       nif: "",
@@ -78,7 +78,7 @@ const QuoteRequestPage = () => {
   };
 
   return (
-    <>
+    <div className="min-h-screen blueprint-grid">
       <Helmet>
         <title>{t("quote.title")} | Preciouscontrol</title>
         <meta name="description" content={t("quote.pageDescription")} />
@@ -88,36 +88,24 @@ const QuoteRequestPage = () => {
         <link rel="canonical" href="https://preciouscontrol.github.io/quote" />
       </Helmet>
 
-      {/* Hero Section */}
-      <section className="bg-primary py-16">
+      <section className="bg-primary py-16 overflow-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-4 animate-fade-in-up">
             {t("quote.title")}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             {t("quote.subtitle")}
           </p>
         </div>
       </section>
 
-      {/* Breadcrumb
-      <div className="bg-muted py-3 border-b border-border">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <a href="/" className="hover:text-primary transition-colors">{t("nav.home")}</a>
-            <span>/</span>
-            <span className="text-primary">{t("quote.title")}</span>
-          </div>
-        </div>
-      </div>
-      */}
-
-      {/* Form Section */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-transparent overflow-hidden" ref={ref}>
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="bg-white rounded-xl shadow-lg border border-border p-8 md:p-12">
+          <div className={`bg-white rounded-xl shadow-lg border border-border p-8 md:p-12
+            hover:shadow-2xl transition-all duration-500
+            ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="flex items-center gap-3 mb-8">
-              <FileText className="h-8 w-8 text-secondary" />
+              <FileText className={`h-8 w-8 text-secondary transition-all duration-500 ${isVisible ? 'scale-100 rotate-0' : 'scale-0 rotate-180'}`} />
               <div>
                 <h2 className="text-2xl font-display font-bold text-foreground">
                   {t("quote.formTitle")}
@@ -128,18 +116,19 @@ const QuoteRequestPage = () => {
 
             <form onSubmit={handleSubmit} className="space-y-8">
               {/* Company Information */}
-              <div>
+              <div className={`transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <h3 className="text-lg font-semibold text-foreground mb-4 pb-2 border-b border-border">
                   {t("quote.companyInfo")}
                 </h3>
                 <div className="grid md:grid-cols-3 gap-4">
-                  <div className="space-y-2">
+                  <div className="space-y-2 group">
                     <Label htmlFor="companyName">{t("quote.companyName")} *</Label>
                     <Input
                       id="companyName"
                       value={formData.companyName}
                       onChange={(e) => handleChange("companyName", e.target.value)}
                       placeholder={t("quote.companyNamePlaceholder")}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                   <div className="space-y-2">
@@ -149,6 +138,7 @@ const QuoteRequestPage = () => {
                       value={formData.nif}
                       onChange={(e) => handleChange("nif", e.target.value)}
                       placeholder={t("quote.nifPlaceholder")}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                   <div className="space-y-2">
@@ -158,13 +148,14 @@ const QuoteRequestPage = () => {
                       value={formData.contactName}
                       onChange={(e) => handleChange("contactName", e.target.value)}
                       placeholder={t("quote.contactNamePlaceholder")}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                 </div>
               </div>
 
               {/* Contact Information */}
-              <div>
+              <div className={`transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <h3 className="text-lg font-semibold text-foreground mb-4 pb-2 border-b border-border">
                   {t("quote.contactInfo")}
                 </h3>
@@ -177,6 +168,7 @@ const QuoteRequestPage = () => {
                       value={formData.email}
                       onChange={(e) => handleChange("email", e.target.value)}
                       placeholder={t("contact.emailPlaceholder")}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                   <div className="space-y-2">
@@ -187,12 +179,13 @@ const QuoteRequestPage = () => {
                       value={formData.phone}
                       onChange={(e) => handleChange("phone", e.target.value)}
                       placeholder={t("contact.phonePlaceholder")}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="preferredContact">{t("quote.preferredContact")}</Label>
                     <Select value={formData.preferredContact} onValueChange={(value) => handleChange("preferredContact", value)}>
-                      <SelectTrigger>
+                      <SelectTrigger className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md">
                         <SelectValue placeholder={t("quote.selectOption")} />
                       </SelectTrigger>
                       <SelectContent>
@@ -205,7 +198,7 @@ const QuoteRequestPage = () => {
               </div>
 
               {/* Project Information */}
-              <div>
+              <div className={`transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <h3 className="text-lg font-semibold text-foreground mb-4 pb-2 border-b border-border">
                   {t("quote.projectInfo")}
                 </h3>
@@ -213,7 +206,7 @@ const QuoteRequestPage = () => {
                   <div className="space-y-2">
                     <Label htmlFor="serviceType">{t("quote.serviceType")} *</Label>
                     <Select value={formData.serviceType} onValueChange={(value) => handleChange("serviceType", value)}>
-                      <SelectTrigger>
+                      <SelectTrigger className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md">
                         <SelectValue placeholder={t("quote.selectService")} />
                       </SelectTrigger>
                       <SelectContent>
@@ -230,6 +223,7 @@ const QuoteRequestPage = () => {
                       value={formData.projectLocation}
                       onChange={(e) => handleChange("projectLocation", e.target.value)}
                       placeholder={t("quote.projectLocationPlaceholder")}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                 </div>
@@ -241,6 +235,7 @@ const QuoteRequestPage = () => {
                       type="date"
                       value={formData.expectedStartDate}
                       onChange={(e) => handleChange("expectedStartDate", e.target.value)}
+                      className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                     />
                   </div>
                 </div>
@@ -252,17 +247,19 @@ const QuoteRequestPage = () => {
                     onChange={(e) => handleChange("projectDescription", e.target.value)}
                     placeholder={t("quote.projectDescriptionPlaceholder")}
                     rows={5}
+                    className="transition-all duration-300 focus:scale-[1.02] focus:shadow-md"
                   />
                 </div>
               </div>
 
               {/* Terms and Submit */}
-              <div className="space-y-6">
-                <div className="flex items-center space-x-3">
+              <div className={`space-y-6 transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+                <div className="flex items-center space-x-3 group">
                   <Checkbox
                     id="acceptTerms"
                     checked={formData.acceptTerms}
                     onCheckedChange={(checked) => handleChange("acceptTerms", checked as boolean)}
+                    className="transition-transform duration-300 group-hover:scale-110"
                   />
                   <label
                     htmlFor="acceptTerms"
@@ -272,7 +269,13 @@ const QuoteRequestPage = () => {
                   </label>
                 </div>
 
-                <Button type="submit" size="lg" className="w-full bg-secondary hover:bg-secondary/90 text-white">
+                <Button 
+                  type="submit" 
+                  size="lg" 
+                  className="w-full bg-secondary hover:bg-secondary/90 text-white
+                    hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]
+                    transition-all duration-300"
+                >
                   <Send className="mr-2 h-5 w-5" />
                   {t("quote.submit")}
                 </Button>
@@ -281,7 +284,7 @@ const QuoteRequestPage = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

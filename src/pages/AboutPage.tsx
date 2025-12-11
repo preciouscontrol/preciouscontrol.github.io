@@ -16,7 +16,7 @@ const AboutPage = () => {
         <meta property="og:description" content={t("about.description")} />
         <link rel="canonical" href="https://preciouscontrol.github.io/about" />
       </Helmet>
-            {/* Hero Section */}
+      
       <HeroSection title={t("about.heroTitle")} subtitle={t("about.heroSubtitle")} />
 
       <main>

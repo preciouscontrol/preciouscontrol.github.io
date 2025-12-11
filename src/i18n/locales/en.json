@@ -51,6 +51,7 @@
     "foundedDate": "May 30, 2022"
   },
   "services": {
+    "heroTitle": "Services Provided",
     "title": "Our Services",
     "subtitle": "We offer a complete range of scaffolding and site logistics services, adapted to each client's needs.",
     "scaffolding": {
@@ -74,6 +75,7 @@
     }
   },
   "projects": {
+    "heroTitle": "Gallery",
     "title": "Our Work",
     "subtitle": "Discover some of our projects. Each one demonstrates our commitment to quality and excellence.",
     "categories": {
@@ -148,5 +150,16 @@
     "acceptTermsRequired": "You must accept the terms to continue.",
     "submit": "Submit Quote Request",
     "successDesc": "Your request has been received. We will contact you shortly."
+  },
+  "timeline": {
+    "badge": "Process",
+    "title": "How We Work",
+    "subtitle": "A structured and professional process to ensure excellent results in every project.",
+    "step1": { "title": "Initial Analysis", "desc": "We assess your project's specific needs and identify technical requirements." },
+    "step2": { "title": "Planning", "desc": "We develop a detailed plan with material estimates, labor and schedule." },
+    "step3": { "title": "Logistics", "desc": "We coordinate delivery of materials and equipment needed for execution." },
+    "step4": { "title": "Execution", "desc": "Our qualified team executes the project following strict safety standards." },
+    "step5": { "title": "Supervision", "desc": "Continuous monitoring and inspections to ensure quality and compliance." },
+    "step6": { "title": "Delivery", "desc": "Project completion with final verification and comprehensive execution report." }
   }
 }

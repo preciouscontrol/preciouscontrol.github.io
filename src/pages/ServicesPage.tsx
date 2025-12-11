@@ -1,11 +1,12 @@
 import HeroSection from "@/components/HeroSection";
+import { ProjectTimeline } from "@/components/ProjectTimeline";
 import { Services } from "@/components/Services";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 const ServicesPage = () => {
   const { t } = useTranslation();
-  
+
   return (
     <>
       <Helmet>
@@ -19,9 +20,10 @@ const ServicesPage = () => {
 
       {/* Hero Section */}
       <HeroSection title={t("services.title")} subtitle={t("services.subtitle")} />
-      
+
       <main>
         <Services />
+        <ProjectTimeline />
       </main>
     </>
   );

@@ -51,6 +51,7 @@
     "foundedDate": "30 mai 2022"
   },
   "services": {
+    "heroTitle": "Services Prestés",
     "title": "Nos Services",
     "subtitle": "Nous offrons une gamme complète de services d'échafaudages et de logistique de chantier, adaptés aux besoins de chaque client.",
     "scaffolding": {
@@ -74,6 +75,7 @@
     }
   },
   "projects": {
+    "heroTitle": "Galerie",
     "title": "Nos Travaux",
     "subtitle": "Découvrez certains de nos projets. Chacun démontre notre engagement envers la qualité et l'excellence.",
     "categories": {
@@ -148,5 +150,16 @@
     "acceptTermsRequired": "Vous devez accepter les conditions pour continuer.",
     "submit": "Soumettre la Demande de Devis",
     "successDesc": "Votre demande a été reçue. Nous vous contacterons sous peu."
+  },
+  "timeline": {
+    "badge": "Processus",
+    "title": "Comment Nous Travaillons",
+    "subtitle": "Un processus structuré et professionnel pour garantir d'excellents résultats dans chaque projet.",
+    "step1": { "title": "Analyse Initiale", "desc": "Nous évaluons les besoins spécifiques de votre projet et identifions les exigences techniques." },
+    "step2": { "title": "Planification", "desc": "Nous développons un plan détaillé avec estimations de matériaux, main-d'œuvre et calendrier." },
+    "step3": { "title": "Logistique", "desc": "Nous coordonnons la livraison des matériaux et équipements nécessaires à l'exécution." },
+    "step4": { "title": "Exécution", "desc": "Notre équipe qualifiée exécute le projet en suivant des normes de sécurité strictes." },
+    "step5": { "title": "Supervision", "desc": "Suivi continu et inspections pour garantir qualité et conformité." },
+    "step6": { "title": "Livraison", "desc": "Achèvement du projet avec vérification finale et rapport d'exécution complet." }
   }
 }
