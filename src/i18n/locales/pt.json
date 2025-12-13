@@ -10,7 +10,7 @@
   "hero": {
     "title": "Preciouscontrol",
     "tagline": "Works at height Solutions",
-    "subtitle": "Especialistas em andaimes, logística de obras e gestão de armazéns. Fornecemos soluções seguras e de qualidade para projetos de trabalhos em altura.",
+    "subtitle": "Especialistas em andaimes, logística de obras e gestão de armazéns. Fornecemos soluções seguras e de qualidade para projetos.",
     "learnMore": "Saiba Mais",
     "viewProjects": "Ver Projetos",
     "contact": "Contacte-nos",
@@ -20,7 +20,7 @@
     "heroTitle": "Sobre Nós",
     "heroSubtitle": "Saiba mais sobre a Preciouscontrol e o nosso compromisso com a excelência, segurança e qualidade.",
     "title": "Quem Somos",
-    "description": "A Preciouscontrol Unipessoal Lda é uma empresa fundada em 30 de Maio de 2022, especializada em trabalhos em altura, logística de obras e administração de armazéns. Dedicamo-nos a oferecer soluções seguras, eficientes e de qualidade, com uma equipa qualificada e comprometida com a excelência.",
+    "description": "A Preciouscontrol - Unipessoal Lda é uma empresa fundada em 30 de Maio de 2022, especializada em trabalhos em altura, logística de obras e administração de armazéns. Dedicamo-nos a oferecer soluções seguras, eficientes e de qualidade, com uma equipa qualificada e comprometida com a excelência.",
     "features": {
       "safety": {
         "title": "Segurança",
@@ -41,7 +41,7 @@
     },
     "vision": {
       "title": "A Nossa Visão",
-      "text": "Ser uma referência em trabalhos em altura e logística de obras, combinando técnicas especializadas com práticas seguras e compromisso com a satisfação do cliente."
+      "text": "Ser uma referência em segurança para trabalhos em altura e logística de obras, combinando técnicas especializadas com práticas seguras e compromisso com a satisfação do cliente."
     },
     "values": {
       "title": "Os Nossos Valores",
@@ -97,7 +97,7 @@
     "email": "Email",
     "phone": "Telefone",
     "location": "Localização",
-    "rights": "Preciouscontrol. All rights reserved."
+    "rights": "Preciouscontrol - Unipessoal Lda. All rights reserved."
   },
   "contact": {
     "title": "Solicitar Orçamento",

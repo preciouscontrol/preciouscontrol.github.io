@@ -10,7 +10,7 @@
   "hero": {
     "title": "Preciouscontrol",
     "tagline": "Works at height Solutions",
-    "subtitle": "Spécialistes en échafaudages, logistique de chantier et gestion d'entrepôts. Nous fournissons des solutions sûres et de qualité pour les travaux en hauteur.",
+    "subtitle": "Spécialistes en échafaudages, logistique de chantier et gestion d'entrepôts. Nous fournissons des solutions sûres et de qualité pour les projets.",
     "learnMore": "En Savoir Plus",
     "viewProjects": "Voir les Projets",
     "contact": "Contactez-nous",
@@ -20,7 +20,7 @@
     "heroTitle": "À Propos de Nous",
     "heroSubtitle": "En savoir plus sur Preciouscontrol et notre engagement envers l'excellence, la sécurité et la qualité.",
     "title": "Qui Sommes-Nous",
-    "description": "Preciouscontrol Unipessoal Lda est une entreprise fondée le 30 mai 2022, spécialisée dans les travaux en hauteur, la logistique de chantier et la gestion d'entrepôts. Nous nous consacrons à offrir des solutions sûres, efficaces et de qualité, avec une équipe qualifiée engagée dans l'excellence.",
+    "description": "Preciouscontrol - Unipessoal Lda est une entreprise fondée le 30 mai 2022, spécialisée dans les travaux en hauteur, la logistique de chantier et la gestion d'entrepôts. Nous nous consacrons à offrir des solutions sûres, efficaces et de qualité, avec une équipe qualifiée engagée dans l'excellence.",
     "features": {
       "safety": {
         "title": "Sécurité",
@@ -41,7 +41,7 @@
     },
     "vision": {
       "title": "Notre Vision",
-      "text": "Être une référence dans les travaux en hauteur et la logistique de chantier, en combinant des techniques spécialisées avec des pratiques sûres et un engagement envers la satisfaction du client."
+      "text": "Être une référence en sécurité pour les travaux en hauteur et la logistique de chantier, en combinant des techniques spécialisées avec des pratiques sûres et un engagement envers la satisfaction du client."
     },
     "values": {
       "title": "Nos Valeurs",
@@ -97,7 +97,7 @@
     "email": "Email",
     "phone": "Téléphone",
     "location": "Localisation",
-    "rights": "Preciouscontrol. All rights reserved."
+    "rights": "Preciouscontrol - Unipessoal Lda. All rights reserved."
   },
   "contact": {
     "title": "Demander un Devis",

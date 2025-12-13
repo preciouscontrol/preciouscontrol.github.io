@@ -42,7 +42,7 @@ export const ConstructionHero = () => {
             className="h-full w-full object-cover"
           />
           {/* Simple gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-blueprint-dark/80 via-blueprint-dark/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-blueprint-dark/80 via-blueprint-dark/50 to-transparent" />
         </div>
       ))}
 
@@ -69,7 +69,7 @@ export const ConstructionHero = () => {
             </div>
 
             {/* Subtitle */}
-            <p className={`text-base sm:text-lg md:text-xl max-w-xl mb-6 sm:mb-8 text-primary-foreground/80 leading-relaxed transition-all duration-700 delay-500 ${
+            <p className={`text-base sm:text-lg md:text-xl max-w-xl mb-6 sm:mb-8 text-primary-foreground leading-relaxed transition-all duration-700 delay-500 ${
               isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}>
               {t("hero.subtitle")}

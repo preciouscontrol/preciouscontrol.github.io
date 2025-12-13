@@ -33,12 +33,6 @@ const timelineSteps = [
     descKey: "timeline.step5.desc",
     phase: "05",
   },
-  {
-    icon: CheckCircle2,
-    titleKey: "timeline.step6.title",
-    descKey: "timeline.step6.desc",
-    phase: "06",
-  },
 ];
 
 export const ProjectTimeline = () => {
@@ -88,7 +82,7 @@ export const ProjectTimeline = () => {
               return (
                 <div
                   key={index}
-                  className={`relative transition-all duration-700 ${
+                  className={`relative ${index === timelineSteps.length - 1 ? "col-span-2 sm:col-span-1" : ""} transition-all duration-700 ${
                     isVisible
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-10"
