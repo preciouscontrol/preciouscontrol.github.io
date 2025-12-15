@@ -78,14 +78,28 @@
     "heroTitle": "Galerie",
     "title": "Nos Travaux",
     "subtitle": "Découvrez certains de nos projets. Chacun démontre notre engagement envers la qualité et l'excellence.",
+    "filter": "Filtrer",
+    "results": "images",
+    "loadMore": "Charger Plus",
+    "noResults": "Aucune image trouvée pour ce filtre.",
     "categories": {
       "all": "Tous",
       "scaffolding": "Échafaudages",
       "logistics": "Logistique"
     },
-    "types": {
-      "scaffolding": "Échafaudages",
-      "logistics": "Logistique"
+    "subtypes": {
+      "all": "Tous",
+      "stairs": "Escaliers",
+      "suspended": "Suspendus",
+      "rolling": "Roulants",
+      "shelters": "Abris",
+      "temporary-covers": "Couvertures Provisoires",
+      "facade": "Façade",
+      "walkways": "Passerelles",
+      "temporary-facilities": "Installations Temporaires",
+      "temporary-power": "Énergie Provisoire",
+      "transport": "Transports",
+      "storage": "Stockage"
     }
   },
   "footer": {

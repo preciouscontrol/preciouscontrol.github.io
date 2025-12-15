@@ -78,14 +78,28 @@
     "heroTitle": "Galeria",
     "title": "Os Nossos Trabalhos",
     "subtitle": "Conheça alguns dos nossos projetos. Cada um demonstra o nosso compromisso com qualidade e excelência.",
+    "filter": "Filtrar",
+    "results": "imagens",
+    "loadMore": "Ver Mais",
+    "noResults": "Nenhuma imagem encontrada para este filtro.",
     "categories": {
       "all": "Todos",
       "scaffolding": "Andaimes",
       "logistics": "Logística"
     },
-    "types": {
-      "scaffolding": "Andaimes",
-      "logistics": "Logística"
+    "subtypes": {
+      "all": "Todos",
+      "stairs": "Escadas",
+      "suspended": "Suspensos",
+      "rolling": "Rolantes",
+      "shelters": "Abrigos",
+      "temporary-covers": "Coberturas Provisórias",
+      "facade": "Fachada",
+      "walkways": "Passarelas",
+      "temporary-facilities": "Instalações Temporárias",
+      "temporary-power": "Energia Provisória",
+      "transport": "Transportes",
+      "storage": "Armazenagem"
     }
   },
   "footer": {

@@ -78,14 +78,28 @@
     "heroTitle": "Gallery",
     "title": "Our Work",
     "subtitle": "Discover some of our projects. Each one demonstrates our commitment to quality and excellence.",
+    "filter": "Filter",
+    "results": "images",
+    "loadMore": "Load More",
+    "noResults": "No images found for this filter.",
     "categories": {
       "all": "All",
       "scaffolding": "Scaffolding",
       "logistics": "Logistics"
     },
-    "types": {
-      "scaffolding": "Scaffolding",
-      "logistics": "Logistics"
+    "subtypes": {
+      "all": "All",
+      "stairs": "Stairs",
+      "suspended": "Suspended",
+      "rolling": "Rolling",
+      "shelters": "Shelters",
+      "temporary-covers": "Temporary Covers",
+      "facade": "Facade",
+      "walkways": "Walkways",
+      "temporary-facilities": "Temporary Facilities",
+      "temporary-power": "Temporary Power",
+      "transport": "Transport",
+      "storage": "Storage"
     }
   },
   "footer": {
