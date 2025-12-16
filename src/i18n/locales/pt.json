@@ -58,7 +58,7 @@
       "title": "Andaimes",
       "description": "Soluções completas em andaimes para o seu projeto.",
       "items": {
-        "design": "Desenho e estimativa de materiais de andaime necessários ao seu projeto, assim como mão de obra necessária para montagem e desmontagem",
+        "design": "Desenho e estimativa de materiais de andaime e mão de obra necessários para os seus projetos",
         "management": "Gestão, coordenação e inspeção de trabalhos de andaime",
         "audit": "Auditoria em obra na atividade de montagem de andaimes"
       }
@@ -69,7 +69,7 @@
       "items": {
         "facilities": "Gestão e coordenação de instalações provisórias necessárias ao seu projeto",
         "energy": "Gestão e coordenação de fornecimento de energia provisória necessárias ao seu projeto",
-        "transport": "Gestão e coordenação de transportes dentro da sua obra",
+        "transport": "Gestão e coordenação de transportes dentro do seu projeto",
         "storage": "Gestão de armazenamento e coordenação de equipamentos necessários à execução do seu projeto"
       }
     }

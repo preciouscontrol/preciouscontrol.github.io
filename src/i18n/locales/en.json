@@ -58,7 +58,7 @@
       "title": "Scaffolding",
       "description": "Complete scaffolding solutions for your project.",
       "items": {
-        "design": "Design and estimation of scaffolding materials needed for your project, as well as labor required for assembly and disassembly",
+        "design": "Design and estimation of scaffolding materials and manpower needed for your projects",
         "management": "Management, coordination and inspection of scaffolding work",
         "audit": "On-site auditing of scaffolding assembly activities"
       }
@@ -69,7 +69,7 @@
       "items": {
         "facilities": "Management and coordination of temporary facilities needed for your project",
         "energy": "Management and coordination of temporary power supply for your project",
-        "transport": "Management and coordination of transportation within your construction site",
+        "transport": "Management and coordination of transportation inside your project",
         "storage": "Storage management and coordination of equipment needed for your project execution"
       }
     }

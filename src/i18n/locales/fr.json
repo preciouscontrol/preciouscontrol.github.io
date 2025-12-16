@@ -58,7 +58,7 @@
       "title": "Échafaudages",
       "description": "Solutions complètes d'échafaudages pour votre projet.",
       "items": {
-        "design": "Conception et estimation des matériaux d'échafaudage nécessaires à votre projet, ainsi que la main-d'œuvre requise pour le montage et le démontage",
+        "design": "Conception et estimation des matériaux d'échafaudage et de la main-d'œuvre nécessaires pour vos projets",
         "management": "Gestion, coordination et inspection des travaux d'échafaudage",
         "audit": "Audit sur site des activités de montage d'échafaudages"
       }
@@ -69,7 +69,7 @@
       "items": {
         "facilities": "Gestion et coordination des installations temporaires nécessaires à votre projet",
         "energy": "Gestion et coordination de l'alimentation électrique temporaire pour votre projet",
-        "transport": "Gestion et coordination des transports au sein de votre chantier",
+        "transport": "Gestion et coordination des transports à l'intérieur de votre projet",
         "storage": "Gestion du stockage et coordination des équipements nécessaires à l'exécution de votre projet"
       }
     }
