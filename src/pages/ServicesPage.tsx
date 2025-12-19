@@ -15,7 +15,7 @@ const ServicesPage = () => {
         <meta name="keywords" content="scaffolding services, site logistics, warehouse management, works at height" />
         <meta property="og:title" content={t("services.title") + " | Preciouscontrol"} />
         <meta property="og:description" content={t("services.subtitle")} />
-        <link rel="canonical" href="https://preciouscontrol.github.io/services" />
+        <link rel="canonical" href="https://preciouscontrol-services.com/services" />
       </Helmet>
 
       {/* Hero Section */}

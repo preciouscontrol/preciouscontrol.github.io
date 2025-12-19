@@ -17,7 +17,7 @@ const HomePage = () => {
         <meta property="og:title" content="Preciouscontrol | Works at height Solutions" />
         <meta property="og:description" content={t("hero.subtitle")} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://preciouscontrol.github.io" />
+        <link rel="canonical" href="https://preciouscontrol-services.com" />
       </Helmet>
       <ConstructionHero />
       <About />

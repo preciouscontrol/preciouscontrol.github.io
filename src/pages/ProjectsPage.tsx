@@ -81,7 +81,7 @@ const ProjectsPage = () => {
         <meta name="keywords" content="projects, portfolio, scaffolding projects, logistics, andaimes, completed work" />
         <meta property="og:title" content={t("projects.title") + " | Preciouscontrol"} />
         <meta property="og:description" content={t("projects.subtitle")} />
-        <link rel="canonical" href="https://preciouscontrol.github.io/projects" />
+        <link rel="canonical" href="https://preciouscontrol-services.com/projects" />
       </Helmet>
 
       <HeroSection title={t("projects.title")} subtitle={t("projects.subtitle")} />

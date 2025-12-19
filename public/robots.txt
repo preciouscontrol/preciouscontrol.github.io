@@ -4,7 +4,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://preciouscontrol.github.io/sitemap.xml
+Sitemap: https://preciouscontro-services.com/sitemap.xml
 
 User-agent: Googlebot
 Allow: /

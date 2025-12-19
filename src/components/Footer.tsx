@@ -67,6 +67,12 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="flex items-start gap-3 group">
+                  <Linkedin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                  <a href="https://www.linkedin.com/company/preciouscontrol/" className="text-white/80 hover:text-secondary transition-colors text-sm" target="_blank" rel="noopener noreferrer">
+                    Preciouscontrol
+                  </a>
+                </li>
+                <li className="flex items-start gap-3 group">
                   <MapPin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <span className="text-white/80 text-sm">
                     Portalegre, Portugal

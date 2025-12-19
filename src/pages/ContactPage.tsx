@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Linkedin } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
 import HeroSection from "@/components/HeroSection";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
@@ -13,6 +13,7 @@ const ContactPage = () => {
   const contactItems = [
     { icon: Phone, title: "footer.phone", content: "+351 915 633 807", href: "tel:+351915633807" },
     { icon: Mail, title: "footer.email", content: "general@preciouscontrol-services.com", href: "mailto:general@preciouscontrol-services.com" },
+    { icon: Linkedin, title: "LinkedIn", content: "Preciouscontrol", href: "https://www.linkedin.com/company/preciouscontrol/" },
     { icon: MapPin, title: "footer.location", content: "Portalegre, Portugal", href: null },
   ];
 
@@ -24,7 +25,7 @@ const ContactPage = () => {
         <meta name="keywords" content="contact, get in touch, inquiry, scaffolding services, support" />
         <meta property="og:title" content={t("nav.contact") + " | Preciouscontrol"} />
         <meta property="og:description" content={t("contact.heroSubtitle")} />
-        <link rel="canonical" href="https://preciouscontrol.github.io/contact" />
+        <link rel="canonical" href="https://preciouscontrol-services.com/contact" />
       </Helmet>
 
       <HeroSection title={t("nav.contact")} subtitle={t("contact.heroSubtitle")} />

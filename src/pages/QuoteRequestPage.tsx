@@ -85,7 +85,7 @@ const QuoteRequestPage = () => {
         <meta name="keywords" content="quote request, project estimate, scaffolding pricing, free quote" />
         <meta property="og:title" content={t("quote.title") + " | Preciouscontrol"} />
         <meta property="og:description" content={t("quote.pageDescription")} />
-        <link rel="canonical" href="https://preciouscontrol.github.io/quote" />
+        <link rel="canonical" href="https://preciouscontrol-services.com/quote" />
       </Helmet>
 
       <section className="bg-primary py-16 overflow-hidden">
