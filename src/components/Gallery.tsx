@@ -1,7 +1,7 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
 import { X, ChevronLeft, ChevronRight, ZoomIn, Filter } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
+import OptimizedImage from "./OptimizedImage";
 export type ProjectCategory = "scaffolding" | "logistics";
 
 export type ProjectSubtype = 
@@ -31,8 +31,7 @@ const Gallery = ({ images, title }: GalleryProps) => {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [activeCategory, setActiveCategory] = useState<ProjectCategory | "all">("all");
   const [activeSubtype, setActiveSubtype] = useState<ProjectSubtype | "all">("all");
-  const [displayCount, setDisplayCount] = useState(5); // Mostrar 5 imagens inicialmente
-
+  const [displayCount, setDisplayCount] = useState(10);
   const scaffoldingSubtypes: ProjectSubtype[] = [
     "stairs", "suspended", "rolling", "shelters", "temporary-covers", "facade", "walkways"
   ];
@@ -74,15 +73,15 @@ const Gallery = ({ images, title }: GalleryProps) => {
 
   const currentImage = selectedIndex !== null ? filteredImages[selectedIndex] : null;
 
-  const handleCategoryChange = (category: ProjectCategory | "all") => {
+  const handleCategoryChange = useCallback((category: ProjectCategory | "all") => {
     setActiveCategory(category);
     setActiveSubtype("all");
-    setDisplayCount(5); // Reset pagination ao mudar categoria
-  };
+    setDisplayCount(10); // Reset pagination ao mudar categoria
+  }, []);
 
-  const handleLoadMore = () => {
-    setDisplayCount((prev) => prev + 5);
-  };
+  const handleLoadMore = useCallback(() => {
+    setDisplayCount((prev) => prev + 10);
+  }, []);
 
   return (
     <>
@@ -175,25 +174,22 @@ const Gallery = ({ images, title }: GalleryProps) => {
           {displayedImages.map((image, index) => (
             <div
               key={image.id}
-              className={`relative group cursor-pointer overflow-hidden rounded-sm
-                aspect-square
-                transition-all duration-500 ease-out
-                animate-fade-in`}
-              style={{ animationDelay: `${index * 50}ms` }}
+              className="relative group cursor-pointer overflow-hidden rounded-sm aspect-square"
               onClick={() => openLightbox(index)}
             >
-              {/* Image */}
-              <img
+              {/* Optimized Image with lazy loading */}
+              <OptimizedImage
                 src={image.src}
                 alt={image.alt}
+                containerClassName="w-full h-full"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-blueprint-dark/0 group-hover:bg-blueprint-dark/60 transition-all duration-500" />
+              <div className="absolute inset-0 bg-blueprint-dark/0 group-hover:bg-blueprint-dark/60 transition-all duration-500 pointer-events-none" />
 
               {/* Hover content */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-500 p-2">
+              <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-500 p-2 pointer-events-none">
                 <div className="bg-construction rounded-full p-2 sm:p-3 transform scale-50 group-hover:scale-100 group-active:scale-100 transition-transform duration-500 mb-2">
                   <ZoomIn className="h-4 w-4 sm:h-5 sm:w-5 text-primary-foreground" />
                 </div>
@@ -205,10 +201,10 @@ const Gallery = ({ images, title }: GalleryProps) => {
               </div>
 
               {/* Border accent */}
-              <div className="absolute inset-0 border border-transparent group-hover:border-construction/50 rounded-sm transition-all duration-500" />
+              <div className="absolute inset-0 border border-transparent group-hover:border-construction/50 rounded-sm transition-all duration-500 pointer-events-none" />
 
               {/* Image number */}
-              <div className="absolute bottom-1 left-1 sm:bottom-2 sm:left-2 font-mono text-[10px] sm:text-xs text-primary-foreground/80 bg-blueprint-dark/60 px-1 rounded">
+              <div className="absolute bottom-1 left-1 sm:bottom-2 sm:left-2 font-mono text-[10px] sm:text-xs text-primary-foreground/80 bg-blueprint-dark/60 px-1 rounded pointer-events-none">
                 #{String(index + 1).padStart(2, "0")}
               </div>
             </div>
@@ -230,7 +226,7 @@ const Gallery = ({ images, title }: GalleryProps) => {
               className="px-6 py-2.5 rounded-sm font-mono text-sm uppercase tracking-wider transition-all duration-300
                 bg-blueprint hover:bg-blueprint-light text-primary-foreground shadow-lg hover:shadow-xl active:scale-95"
             >
-              {t("projects.loadMore")} +5
+              {t("projects.loadMore")} +10
             </button>
           </div>
         )}
