@@ -8,6 +8,7 @@ import { TopBar } from "@/components/TopBar";
 import { Navbar } from "@/components/Navbar";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Footer } from "@/components/Footer";
+import { Analytics } from "@/components/Analytics";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
+          <Analytics />
         </BrowserRouter>
       </TooltipProvider>
     </HelmetProvider>
